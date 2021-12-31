@@ -22,6 +22,10 @@ Ensure you have the [Rust Analyzer](https://marketplace.visualstudio.com/items?i
 ### Using CLion
 Simply open the project after installing the [Rust plugin](https://plugins.jetbrains.com/plugin/8182-rust/docs) and everything should work correctly; you will only need to change one setting. Under `Languages & Frameworks` > `Rust` > `rustfmt` ensure `Use rustfmt instead of built-in formatter` is checked.
 
+## Viewing documentation
+To view this project's automatically generated rustdoc documentation, execute `./view_documentation.sh` inside the root folder.
+Human-written docs and guides available at https://docs.worldql.com/
+
 ## Formatting and Linting
 WorldQL uses [rustfmt](https://github.com/rust-lang/rustfmt) for formatting and [Clippy](https://github.com/rust-lang/rust-clippy) for linting. Both come as standard with a Rustup toolchain installation, but if you don't have them you can simply use Rustup to install them. **Note that the current rustfmt formatting rules requires the use of Rust nightly.**
 
